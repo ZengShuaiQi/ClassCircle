@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/login_bk"
+    android:orientation="vertical"
+    >
+    <include layout="@layout/title_bar"/>
+
+    <EditText
+        android:id="@id/send_inform_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:elegantTextHeight="true"
+        android:gravity="top"
+        android:hint="@string/send_inform_text"
+        android:imeOptions="actionDone"
+        android:inputType="textMultiLine"
+        android:background="#fff"
+        android:minLines="5" />
+
+    <ImageView
+        android:id="@id/send_inform_photo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="10dp"
+        android:clickable="true"
+        android:src="@android:mipmap/sym_def_app_icon"/>
+
+    <Button
+        android:id="@id/send_inform"
+        android:layout_width="350dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/btn_login_selector"
+        android:text="@string/send_inform"
+        android:textColor="@android:color/white"
+        android:textSize="22sp" />
+
+    <ProgressBar
+        android:id="@id/progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:visibility="gone"/>
+
+
+</LinearLayout>

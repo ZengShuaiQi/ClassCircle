@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:src="@mipmap/avatar5" />
+
+    <EditText
+        android:id="@id/user_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:hint="@string/user_name" />
+
+    <EditText
+        android:id="@id/password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:inputType="numberPassword"
+        android:imeOptions="actionNext"
+        android:hint="@string/password" />
+    <EditText
+        android:id="@id/confirm_password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:inputType="numberPassword"
+        android:imeOptions="actionDone"
+        android:hint="@string/confirm_password" />
+
+    <Button
+        android:id="@id/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_login_selector"
+        android:text="@string/register"
+        android:textColor="@android:color/white"
+        android:textSize="22sp" />
+
+
+</LinearLayout>

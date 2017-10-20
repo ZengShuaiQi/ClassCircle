@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+    <TextView
+        android:id="@id/tv_inform"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="sdfsadfsadfsdfsdf水电费水电费水电费是地方水电费水电费傻吊"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:ellipsize="end"
+        android:maxLines="1" />
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:id="@id/inform_photo"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:clickable="true"
+        android:src="@mipmap/ic_launcher"/>
+
+</LinearLayout>
